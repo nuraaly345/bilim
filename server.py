@@ -1,9 +1,9 @@
 import os
 import requests
 # ВСТАВЬТЕ эти строки:
-from mcp.server.fastmcp import FastMCP
+from mcp.server import MCPServer
 
-mcp = FastMCP("Telegram_Spark_Server")
+mcp = MCPServer("Telegram_Spark_Server")
 
 # Булуттагы чөйрө өзгөрмөлөрүнөн токендерди алуу
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8945339905:AAFGzyQuOtD3sQwOK3wAb4cmTrf2ObtYkBY")
