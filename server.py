@@ -5,8 +5,8 @@ from mcp.server.fastmcp import FastMCP
 mcp = FastMCP("Telegram_Spark_Server")
 
 # Булуттагы чөйрө өзгөрмөлөрүнөн токендерди алуу
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8945339905:AAFGzyQuOtD3sQwOK3wAb4cmTrf2ObtYkBY")
+CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "@nuraaly_bot")
 
 @mcp.tool()
 def post_to_telegram(text: str) -> str:
