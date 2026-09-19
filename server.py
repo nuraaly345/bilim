@@ -1,6 +1,8 @@
 import os
 import requests
-from mcp.server.fastmcp import FastMCP
+# ВСТАВЬТЕ эти строки:
+from mcp.server.mcpserver import MCPServer
+
 
 mcp = FastMCP("Telegram_Spark_Server")
 
